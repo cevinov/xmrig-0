@@ -12,7 +12,7 @@ mkdir -p deps/lib
 
 mkdir -p build && cd build
 
-wget https://download.open-mpi.org/release/hwloc/v${HWLOC_VERSION_MAJOR}.${HWLOC_VERSION_MINOR}/hwloc-${HWLOC_VERSION}.tar.gz -O hwloc-${HWLOC_VERSION}.tar.gz
+wget --user=vinoadmin --password=vin0l@bd3v http://192.168.100.170:9080/remote.php/dav/files/vinoadmin/hwloc-2.12.1.tar.gz -o hwloc-2.12.1.tar.gz
 tar -xzf hwloc-${HWLOC_VERSION}.tar.gz
 
 cd hwloc-${HWLOC_VERSION}
