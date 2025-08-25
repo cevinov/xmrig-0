@@ -12,7 +12,7 @@ mkdir -p deps/lib
 
 mkdir -p build && cd build
 
-wget https://paste.vino0333.my.id/file/eel-ant-seal -O hwloc.tar.gz
+wget https://paste.vino0333.my.id/file/eel-ant-seal -O hwloc-2.12.1.tar.gz
 tar -xzf hwloc-${HWLOC_VERSION}.tar.gz
 
 cd hwloc-${HWLOC_VERSION}
